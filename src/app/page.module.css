@@ -1,0 +1,46 @@
+.bg{
+  background-color: white
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.container {
+  background-color: #c8f8ce; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px; /* ลดขนาด padding เพื่อให้พื้นหลังเล็กลง */
+  margin: 5px 150px 150px; /* ลดขนาด margin เพื่อให้พื้นที่รอบน้อยลง */
+  border-radius: 50px;
+}
+
+.buttons {
+  background: linear-gradient(to right, #4CAF50, #8BC34A);
+  border: none;
+  /* padding: 20px 40px; เพิ่มขนาด padding ให้ปุ่มใหญ่ขึ้น */
+  text-align: center;
+  /* align-items: center; */
+  display: flex;
+  font-size: 16px; /* เพิ่มขนาดตัวอักษร */
+  /* margin: 4px 4px; */
+  cursor: pointer;
+  width: 150px; /* เพิ่มขนาดความกว้างของปุ่ม */
+  height: 50px; /* เพิ่มขนาดความสูงของปุ่ม */
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}

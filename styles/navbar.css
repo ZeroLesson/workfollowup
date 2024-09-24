@@ -1,0 +1,13 @@
+.nav{
+    position: absolute;
+    background-color: rgb(3, 114, 83);
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    
+}
